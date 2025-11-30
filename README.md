@@ -1,9 +1,5 @@
-🚀 Scalable Human Resource Management (HRM) Backend
-A robust, enterprise-grade RESTful API designed to streamline Human Resource operations. Built on ASP.NET Core 8, this system leverages Clean Architecture and the CQRS pattern to ensure scalability, maintainability, and high performance.
-
-This backend serves as a centralized hub for managing the entire employee lifecycle—from recruitment and attendance to payroll and leave management—while adhering to modern software engineering best practices.
-
 🏗️ Architectural Highlights
+
 This project moves beyond simple CRUD operations by implementing strict separation of concerns and decoupled logic.
 
 Clean Architecture: The codebase is divided into independent layers (Domain, Application, Infrastructure, API). The Core domain is isolated from external frameworks, making the system testable and easy to refactor.
@@ -36,6 +32,7 @@ Leave Management
 Payroll System
 
 🧰 Technology Stack
+
 Core Framework
 Language: C#
 
