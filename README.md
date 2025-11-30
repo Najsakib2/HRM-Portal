@@ -11,10 +11,15 @@ Mediator Pattern (via MediatR): Handles in-process messaging between objects, en
 🛠️ Technical Features & Best Practices
 
 🔐 Security First	Implements robust JWT Authentication & Authorization, ensuring granular access control for Admins, HR, and Employees.
+
 ⚡ Performance	Integrates Redis Caching to reduce database load and serve frequently accessed data (e.g., Designation lists) instantly.
+
 💾 Data Integrity	Uses Entity Framework Core (Code-First) with SQL Server. Includes database migrations for seamless schema updates.
+
 🛡️ Robust Validation	FluentValidation is used for strong, separate validation rules, keeping the controllers and domain entities clean.
+
 ⚙️ Error Handling	Implements the ErrorOr pattern for a functional approach to error handling, eliminating exceptions for control flow and returning unified result responses.
+
 🧩 Object Mapping	Utilizes AutoMapper to manage clean transformations between Domain Entities and DTOs (Data Transfer Objects).
 
 
