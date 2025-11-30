@@ -8,16 +8,17 @@ CQRS (Command Query Responsibility Segregation): Reads and Writes are separated.
 
 Mediator Pattern (via MediatR): Handles in-process messaging between objects, ensuring loose coupling between request objects and their handlers.
 
-Feature,Description
-🔐 Security First,"Implements robust JWT Authentication & Authorization, ensuring granular access control for Admins, HR, and Employees."
-⚡ Performance,"Integrates Redis Caching to reduce database load and serve frequently accessed data (e.g., Designation lists) instantly."
-💾 Data Integrity,Uses Entity Framework Core (Code-First) with SQL Server. Includes database migrations for seamless schema updates.
-🛡️ Robust Validation,"FluentValidation is used for strong, separate validation rules, keeping the controllers and domain entities clean."
-⚙️ Error Handling,"Implements the ErrorOr pattern for a functional approach to error handling, eliminating exceptions for control flow and returning unified result responses."
-🧩 Object Mapping,Utilizes AutoMapper to manage clean transformations between Domain Entities and DTOs (Data Transfer Objects).
+🛠️ Technical Features & Best Practices
 
-👥 Core Functional Modules
-The system provides a comprehensive suite of endpoints to manage HR operations:
+🔐 Security First	Implements robust JWT Authentication & Authorization, ensuring granular access control for Admins, HR, and Employees.
+⚡ Performance	Integrates Redis Caching to reduce database load and serve frequently accessed data (e.g., Designation lists) instantly.
+💾 Data Integrity	Uses Entity Framework Core (Code-First) with SQL Server. Includes database migrations for seamless schema updates.
+🛡️ Robust Validation	FluentValidation is used for strong, separate validation rules, keeping the controllers and domain entities clean.
+⚙️ Error Handling	Implements the ErrorOr pattern for a functional approach to error handling, eliminating exceptions for control flow and returning unified result responses.
+🧩 Object Mapping	Utilizes AutoMapper to manage clean transformations between Domain Entities and DTOs (Data Transfer Objects).
+
+
+👥 Core Functional Modules The system provides a comprehensive suite of endpoints to manage HR operations:
 
 User & Role Management
 
@@ -33,13 +34,11 @@ Payroll System
 
 🧰 Technology Stack
 
-Core Framework
-Language: C#
+Core Framework Language: C#
 
 Framework: ASP.NET Core 8 Web API
 
-Architecture & Patterns
-Pattern: Clean Architecture + CQRS
+Architecture & Patterns Pattern: Clean Architecture + CQRS
 
 Messaging: MediatR
 
@@ -47,12 +46,10 @@ Validation: FluentValidation
 
 Error Handling: ErrorOr
 
-Data & Infrastructure
-Database: SQL Server
+Data & Infrastructure Database: SQL Server
 
 ORM: Entity Framework Core
 
 Caching: Redis
 
 Mapping: AutoMapper
-
