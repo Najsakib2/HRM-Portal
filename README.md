@@ -1,3 +1,6 @@
+A highly scalable HRM backend engineered with ASP.NET Core 8, adhering to Clean Architecture and CQRS principles. This solution integrates SQL Server and Redis to deliver secure, high-performance endpoints for comprehensive workforce management, including payroll, attendance, and leave tracking.
+
+
 🏗️ Architectural Highlights
 
 This project moves beyond simple CRUD operations by implementing strict separation of concerns and decoupled logic.
@@ -21,6 +24,8 @@ Mediator Pattern (via MediatR): Handles in-process messaging between objects, en
 ⚙️ Error Handling	Implements the ErrorOr pattern for a functional approach to error handling, eliminating exceptions for control flow and returning unified result responses.
 
 🧩 Object Mapping	Utilizes AutoMapper to manage clean transformations between Domain Entities and DTOs (Data Transfer Objects).
+
+
 
 
 👥 Core Functional Modules The system provides a comprehensive suite of endpoints to manage HR operations:
